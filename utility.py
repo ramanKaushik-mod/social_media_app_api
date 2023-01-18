@@ -48,5 +48,5 @@ def tupleToDict(dataSet):
     return {
         "msg_id": dataSet[0],
         "message": dataSet[1],
-        "likes": dataSet[2]
+        "total_likes": dataSet[2]
     }
